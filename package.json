@@ -1,0 +1,12 @@
+{
+  "name": "level buy TheGamer",
+  "version": "0.0.1",
+  "description": "Level By TheGamer",
+  "main": "index.js",
+  "author": "TheGamer",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "fs": "0.0.1-security"
+  }
+}
