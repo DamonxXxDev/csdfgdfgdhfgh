@@ -128,4 +128,4 @@ client.on('message', message => {
     }
 });
 
-client.login("NDcwODI0NjA5NjA5MTU0NTcx.DoLRPw.YBXm9FoaIyZA54K-eFt12gQ3UXg");
+client.login("NTM2NTIwMTAxMDkyOTE3MjUy.DyX4zw.NSAS1frtyELdDrwqrXUybqfCHfo");
