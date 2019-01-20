@@ -1,5 +1,7 @@
+const settings = require("./config.json"); 
 const Discord = require('discord.js');
-const bot = new Discord.Client();
+const initcmd = settings.initcmd;
+const id = settings.id;
 const dateFormat = require('dateformat');//npm i dateformat
 const client = new Discord.Client();
 const ytdl = require('ytdl-core');
@@ -2473,4 +2475,4 @@ client.on('message', function(message) {
 	}
 });
 })
-client.login("NTM2NTIwMTAxMDkyOTE3MjUy.DyYzuQ.ezk8A7PI2QP63__8tnqAR-spjg8");
+client.login(settings.token);
